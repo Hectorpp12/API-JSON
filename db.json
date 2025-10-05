@@ -53,6 +53,12 @@
             "nombre": "Tweets",
             "img": "img/Diseño sin título (6).png",
             "url": "https://fanciful-blancmange-509f98.netlify.app"
+        },        
+        {
+            "id": 11,
+            "nombre": "Restaurant App",
+            "img": "img/Captura de pantalla 2025-10-05 171800.png",
+            "url": "https://flourishing-fox-09aa57.netlify.app"
         }
     ]
 }
