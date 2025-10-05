@@ -1,0 +1,58 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "nombre": "APV - Con TypeScripts",
+            "img": "img/Diseño sin título (2).jpg",
+            "url": "https://ephemeral-fenglisu-ec4e35.netlify.app"
+        },
+        {
+            "id": 2,
+            "nombre": "APV - Proyecto FullStack con NodeJS y React",
+            "img": "img/Captura de pantalla 2025-10-04 213857.png",
+            "url": "https://administrador-pacientes-mern-hector.netlify.app"
+        },
+        {
+            "id": 3,
+            "nombre": "Cotizador de prestamos con Vue",
+            "img": "img/Captura de pantalla 2025-10-04 214206.png",
+            "url": "https://prestamos-vue-hector-sanchez.netlify.app"
+        },
+        {
+            "id": 4,
+            "nombre": "Cotizador de prestamos con React",
+            "img": "img/Captura de pantalla 2025-10-04 214206.png",
+            "url": "https://cotizadorprestamos-react-hector.netlify.app"
+        },
+        {
+            "id": 5,
+            "nombre": "Cursos En Línea con JS",
+            "img": "img/Diseño sin título (5).png",
+            "url": "https://lucent-gnome-062f33.netlify.app"
+        },
+        {
+            "id": 7,
+            "nombre": "Gastos Semanales",
+            "img": "img/Diseño sin título (7).png",
+            "url": "https://cool-rabanadas-bbda15.netlify.app"
+        },
+        {
+            "id": 8,
+            "nombre": "Buscador de Autos",
+            "img": "img/Diseño sin título (4).png",
+            "url": "https://jovial-douhua-b750c0.netlify.app"
+        },
+                {
+            "id": 9,
+            "nombre": "Envio de Emails",
+            "img": "img/Diseño sin título (3).png",
+            "url": "https://magenta-axolotl-2ddf37.netlify.app"
+        },
+        {
+            "id": 10,
+            "nombre": "Tweets",
+            "img": "img/Diseño sin título (6).png",
+            "url": "https://fanciful-blancmange-509f98.netlify.app"
+        }
+    ]
+}
