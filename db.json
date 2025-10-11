@@ -3,77 +3,77 @@
         {
             "id": 1,
             "nombre": "APV - Con TypeScripts",
-            "img": "img/Diseño sin título (2).jpg",
+            "img": "API/img/Diseño sin título (2).jpg",
             "url": "https://ephemeral-fenglisu-ec4e35.netlify.app",
             "descripcion": "Proyecto de una aplicación para administrar pacientes en una clínica veterinaria. La tecnología utilizada en este proyecto incluye TypeScript, React y Tailwind CSS, proporcionando una experiencia interactiva, dinámica y con mucho estilo."
         },
         {
             "id": 2,
             "nombre": "APV - Proyecto FullStack con NodeJS y React",
-            "img": "img/Captura de pantalla 2025-10-04 213857.png",
+            "img": "API/img/Captura de pantalla 2025-10-04 213857.png",
             "url": "https://administrador-pacientes-mern-hector.netlify.app",
             "descripcion": "Proyecto FullStack de una aplicación para administrar pacientes en una clínica veterinaria. La tecnología utilizada en este proyecto incluye NodeJS, Express, MongoDB, React y Tailwind CSS, proporcionando una experiencia interactiva, dinámica y con mucho estilo."
         },
         {
             "id": 3,
             "nombre": "Cotizador de prestamos con Vue",
-            "img": "img/Captura de pantalla 2025-10-04 214206.png",
+            "img": "API/img/Captura de pantalla 2025-10-04 214206.png",
             "url": "https://prestamos-vue-hector-sanchez.netlify.app",
             "descripcion": "Pagina web que permite a los usuarios calcular y simular préstamos personales. La tecnologia utilizada en este proyecto es el framework de javascript llamado Vue.js y Tailwind CSS, proporcionando una experiencia interactiva, dinámica y con estilo."
         },
         {
             "id": 4,
             "nombre": "Cotizador de prestamos con React",
-            "img": "img/Captura de pantalla 2025-10-04 214206.png",
+            "img": "API/img/Captura de pantalla 2025-10-04 214206.png",
             "url": "https://cotizadorprestamos-react-hector.netlify.app",
             "descripcion": "Pagina web que permite a los usuarios calcular y simular préstamos personales. La tecnologia utilizada en este proyecto es el framework de javascript llamado React y Tailwind CSS, proporcionando una experiencia interactiva, dinámica y con estilo."
         },
         {
             "id": 5,
             "nombre": "Cursos En Línea con JS",
-            "img": "img/Diseño sin título (5).png",
+            "img": "API/img/Diseño sin título (5).png",
             "url": "https://lucent-gnome-062f33.netlify.app",
             "descripcion": "Proyecto de una plataforma de cursos en línea que permite a los usuarios explorar, inscribirse y completar cursos en diversas áreas temáticas. Unico lenguaje de programacion utilizado es JavaScript, proporcionando una experiencia interactiva y dinámica."
         },
         {
             "id": 7,
             "nombre": "Gastos Semanales",
-            "img": "img/Diseño sin título (7).png",
+            "img": "API/img/Diseño sin título (7).png",
             "url": "https://cool-rabanadas-bbda15.netlify.app",
             "descripcion": "Proyecto de una aplicación web que permite a los usuarios registrar y gestionar sus gastos semanales. Unico lenguaje de programacion utilizado es JavaScript y el framework de CSS es Bootstrap, proporcionando una experiencia interactiva, dinámica y con estilos profesionales."
         },
         {
             "id": 8,
             "nombre": "Buscador de Autos",
-            "img": "img/Diseño sin título (4).png",
+            "img": "API/img/Diseño sin título (4).png",
             "url": "https://jovial-douhua-b750c0.netlify.app",
             "descripcion": "Pagina web que permite a los usuarios buscar y filtrar autos según diferentes criterios como marca, modelo, año y precio. Unico lenguaje de programacion utilizado es JavaScript, proporcionando una experiencia interactiva y dinámica."
         },
                 {
             "id": 9,
             "nombre": "Envio de Emails",
-            "img": "img/Diseño sin título (3).png",
+            "img": "API/img/Diseño sin título (3).png",
             "url": "https://magenta-axolotl-2ddf37.netlify.app",
             "descripcion": "Pagina web que permite a los usuarios enviar correos electrónicos de manera sencilla y eficiente. Utiliza JavaScript, proporcionando una experiencia interactiva y dinámica."
         },
         {
             "id": 10,
             "nombre": "Tweets",
-            "img": "img/Diseño sin título (6).png",
+            "img": "API/img/Diseño sin título (6).png",
             "url": "https://fanciful-blancmange-509f98.netlify.app",
             "descripcion": "Pagina web de microblogging similar a Twitter, que permite a los usuarios publicar y compartir mensajes cortos. Utiliza JSON para almacenar y manejar los datos de los tweets, proporcionando una experiencia interactiva y dinámica."
         },        
         {
             "id": 11,
             "nombre": "Restaurant App con JSON",
-            "img": "img/Captura de pantalla 2025-10-05 171800.png",
+            "img": "API/img/Captura de pantalla 2025-10-05 171800.png",
             "url": "https://flourishing-fox-09aa57.netlify.app",
             "descripcion": "Proyecto de una aplicación de restaurante que permite a los usuarios explorar el menú, realizar pedidos y gestionar reservas. Utiliza JSON para almacenar y manejar los datos del menú, pedidos y reservas, proporcionando una experiencia interactiva y eficiente."
         },
         {
             "id": 12,
             "nombre": "Advanced IA",
-            "img": "img/Captura de pantalla 2025-10-11 065330.png",
+            "img": "API/img/Captura de pantalla 2025-10-11 065330.png",
             "url": "https://whimsical-kashata-d5669d.netlify.app",
             "descripcion": "Proyecto avanzado de IA que ofrecer soluciones innovadoras y eficientes que integra múltiples tecnologías las cuales son JavaScript, NodeJS, Express, OpenAI, y más."
         }
