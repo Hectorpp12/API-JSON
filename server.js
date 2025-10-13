@@ -29,9 +29,9 @@ app.post("/api/chat", (req, res) => {
   if (texto.includes("hola") || texto.includes("buenos")) {
     respuesta = "¡Hola! Soy Héctor Sánchez, desarrollador web. ¿En qué puedo ayudarte hoy? 😄";
   } else if (texto.includes("último proyecto") || texto.includes("proyecto javascript")) {
-    const ultimo = proyectos[proyectos.length - 1];
-    respuesta = `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion}`;
-  } else if (texto.includes("portafolio")) {
+    const ultimo = proyectos[proyectos.length - 1]; // toma el último proyecto
+    respuesta = `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion} Puedes verlo aquí: ${ultimo.url}`;
+} else if (texto.includes("portafolio")) {
     respuesta = `Puedes ver todos mis proyectos en mi portafolio: https://dshectors-hector-sanchez.netlify.app/`;
   } else if (texto.includes("contacto") || texto.includes("teléfono") || texto.includes("numero")) {
     respuesta = "Puedes contactarme al número +1-829-566-9701.";
