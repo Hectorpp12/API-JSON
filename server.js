@@ -26,11 +26,14 @@ function respuestaControlada(texto) {
   texto = texto.toLowerCase();
   if (texto.includes("hola")) return "¡Hola! Soy Héctor Sánchez, desarrollador web. ¿En qué puedo ayudarte hoy? 😄";
   if (texto.includes("último proyecto") || texto.includes("proyecto javascript")) {
-    if (proyectos.length > 0) {
-      const ultimo = proyectos[proyectos.length - 1];
-      return `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion} Puedes verlo aquí: ${ultimo.url}`;
-    } else return "Actualmente no tengo proyectos cargados 😅.";
+      if (proyectos.length > 0) {
+          const ultimo = proyectos[proyectos.length - 1];
+          respuesta = `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion} Puedes verlo aquí: ${ultimo.url}`;
+      } else {
+          respuesta = "Actualmente no tengo proyectos cargados 😅.";
+      }
   }
+
   if (texto.includes("portafolio")) return "Puedes ver todos mis proyectos en mi portafolio: https://dshectors-hector-sanchez.netlify.app/";
   if (texto.includes("contacto") || texto.includes("teléfono") || texto.includes("numero")) return "Puedes contactarme al número +1-829-566-9701.";
   if (texto.includes("fortalezas")) return "Mis fortalezas incluyen resolución de problemas, aprendizaje rápido y trabajo en equipo.";
@@ -66,10 +69,11 @@ app.post("/api/chat", async (req, res) => {
             role: "system",
             content: `
               Eres Héctor Sánchez, desarrollador web.
-              Responde siempre en primera persona, amigable y profesional.
-              Habla sobre tus proyectos de desarrollo web.
+              Siempre responde sobre tus proyectos de db.json.
+              Si la pregunta trata de proyectos, responde únicamente con los datos de db.json.
               Si te preguntan cómo contactarte, responde: "Puedes contactarme al número +1-829-566-9701."
               No inventes proyectos ni experiencias que no existan.
+              si te preguntan algo que no sepas la respuesta buscala en este sitio web https://dshectors-hector-sanchez.netlify.app/ y si no esta ahi pues respondeles esa informacion es mejor consultarla con hector directamente aqui tiene su nuemro y le das mi numero.
             `
           },
           { role: "user", content: prompt }
