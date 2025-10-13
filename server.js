@@ -5,7 +5,9 @@ import path from "path";
 import fetch from "node-fetch";
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "https://dshectors-hector-sanchez.netlify.app"
+}));
 app.use(express.json());
 
 // Cargar proyectos desde db.json
