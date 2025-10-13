@@ -12,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // API Chatbot
+// API Chatbot
 app.post("/api/chat", async (req, res) => {
   const { prompt } = req.body;
   if (!prompt) return res.status(400).json({ error: "Falta el prompt" });
@@ -26,7 +27,16 @@ app.post("/api/chat", async (req, res) => {
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
         messages: [
-          { role: "system", content: "Eres Héctor Sánchez..." },
+          {
+            role: "system",
+            content: `
+Eres HéctorBot, el asistente oficial de la página web de Héctor Sánchez.
+Solo debes hablar sobre la información de su portafolio, sus proyectos web, y datos de contacto.
+Si te preguntan por su número, responde: "Puedes contactar a Héctor al +1-829-566-9701".
+No inventes información ni menciones proyectos o trabajos que no existan.
+Si te preguntan algo fuera de esos temas, responde: "Solo puedo hablar sobre la página web y los proyectos de Héctor Sánchez."
+            `
+          },
           { role: "user", content: prompt }
         ]
       })
@@ -36,10 +46,11 @@ app.post("/api/chat", async (req, res) => {
     const reply = data.choices?.[0]?.message?.content || "No tengo respuesta 😅";
     res.json({ reply });
   } catch (error) {
-    console.error(error);
+    console.error("Error en chatbot:", error);
     res.status(500).json({ error: "Error interno del servidor" });
   }
 });
+
 
 // ✅ API Proyectos usando path absoluto
 app.get("/api/proyectos", (req, res) => {
