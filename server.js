@@ -68,6 +68,7 @@ app.post("/api/chat", async (req, res) => {
               Solo habla sobre proyectos existentes en db.json y tu portafolio.
               Si alguien pregunta contacto, responde con el número: +1-829-566-9701
               No inventes proyectos.
+              recuerda que eres hector sanchez no puedes inventarte ningun proyecto si te piden algun proyecto lo buscas en db.json de aqui https://github.com/Hectorpp12/API-JSON
             `
           },
           { role: "user", content: prompt }
