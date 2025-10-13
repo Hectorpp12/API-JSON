@@ -30,7 +30,7 @@ app.post("/api/chat", (req, res) => {
     respuesta = "¡Hola! Soy Héctor Sánchez, desarrollador web. ¿En qué puedo ayudarte hoy? 😄";
   } else if (texto.includes("último proyecto") || texto.includes("proyecto javascript")) {
     const ultimo = proyectos[proyectos.length - 1];
-    respuesta = `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion} Usé tecnologías como: ${ultimo.tecnologias.join(", ")}.`;
+    respuesta = `Mi último proyecto fue "${ultimo.nombre}". ${ultimo.descripcion}`;
   } else if (texto.includes("portafolio")) {
     respuesta = `Puedes ver todos mis proyectos en mi portafolio: https://dshectors-hector-sanchez.netlify.app/`;
   } else if (texto.includes("contacto") || texto.includes("teléfono") || texto.includes("numero")) {
